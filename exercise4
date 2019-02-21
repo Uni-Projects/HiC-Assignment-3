@@ -1,0 +1,3 @@
+The program crashes after allocating all the memory of the system because the free() function was used incorrectly.
+
+We fixed the issue by freeing the second layer of pointers first and the main pointer after.
